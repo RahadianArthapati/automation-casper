@@ -1,0 +1,27 @@
+{
+  "name": "casper-starter",
+  "version": "1.0.0",
+  "description": "Automation tools with Casper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/casperjs main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RahadianArthapati/automation-casper.git"
+  },
+  "keywords": [
+    "casper"
+  ],
+  "author": "Rahadian Arthapati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RahadianArthapati/automation-casper/issues"
+  },
+  "homepage": "https://github.com/RahadianArthapati/automation-casper#readme",
+  "dependencies": {
+    "casperjs": "^1.1.4",
+    "phantomjs-prebuilt": "^2.1.16"
+  }
+}
